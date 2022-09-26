@@ -1,0 +1,129 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.entList {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 1rem 0rem;
+  background-color: #fffffe;
+  color: #272343;
+}
+
+input[type='text'] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.addEntBtn {
+  background-color: #ffd803;
+  border: none;
+  color: #272343;
+  font-weight: bold;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.addEntBtn:hover {
+  background-color: #ffc400;
+}
+
+.addEntBox {
+  margin: auto;
+  width: 50%;
+  margin-bottom: 2rem;
+}
+
+.createText,
+.allEntText {
+  font-size: 1.4rem;
+  color: #272343;
+}
+
+.allEntText {
+  margin: auto;
+  width: 50%;
+}
+
+.entBox,
+.entBoxcomplete {
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.entBox {
+  border: 2px solid #272343;
+}
+
+.entBoxcomplete {
+  border: 1px solid #ccc;
+  color: #ccc;
+  text-decoration: line-through;
+}
+
+.entNameText {
+  font-size: 1.4rem;
+  margin-left: 1rem;
+}
+
+.entBtns {
+  margin-right: 1rem;
+}
+
+.vTasksBtn,
+.xBtn {
+  border: none;
+  font-weight: bold;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 4px;
+  margin-top: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+.vTasksBtn {
+  background-color: #ffd803;
+  color: #272343;
+}
+
+.vTasksBtn:hover {
+  background-color: #ffc400;
+}
+
+.xBtn {
+  background-color: #f4511e;
+  color: #fff;
+}
+
+.noAddedText {
+  font-size: 1.4rem;
+  color: #272343;
+  text-align: center;
+}
